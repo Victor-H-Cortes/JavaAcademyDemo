@@ -301,6 +301,11 @@
 	<build>
 		<finalName>webtest-spring-rest</finalName>
 		<plugins>
+		<plugin>
+        <groupId>com.google.cloud.tools</groupId>
+        <artifactId>appengine-maven-plugin</artifactId>
+        <version>${appengine-maven-plugin-version}</version>
+      </plugin>
 			<plugin>
 				<groupId>com.mysema.maven</groupId>
 				<artifactId>apt-maven-plugin</artifactId>
