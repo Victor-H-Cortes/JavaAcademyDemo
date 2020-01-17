@@ -301,6 +301,9 @@
                 <groupId>com.google.cloud.tools</groupId>
                 <artifactId>appengine-maven-plugin</artifactId>
                 <version>${appengine-maven-plugin-version}</version>
+                <configuration>
+                	<deploy.project>rest-api-test-265321</deploy.project>
+                </configuration>
             </plugin>
 			<plugin>
 				<groupId>com.mysema.maven</groupId>
